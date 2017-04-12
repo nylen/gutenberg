@@ -41,9 +41,11 @@ export const blocks = combineReducers( {
 			case 'REPLACE_BLOCKS':
 				return action.blockNodes.map( ( { uid } ) => uid );
 			case 'INSERT_BLOCK':
+				const position = action.after ? state.indexOf( action.after ) + 1 : state.length;
 				return [
-					...state,
-					action.block.uid
+					...state.slice( 0, position ),
+					action.block.uid,
+					...state.slice( position )
 				];
 		}
 
