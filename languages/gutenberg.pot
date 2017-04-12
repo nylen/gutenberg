@@ -7,31 +7,38 @@ msgstr ""
 msgid "Freeform"
 msgstr ""
 
-#: blocks/library/image/index.js:10
+#: blocks/library/image/index.js:26
 msgid "Image"
 msgstr ""
 
-#: blocks/library/image/index.js:31
-msgid "Write caption…"
-msgstr ""
-
-#: blocks/library/list/index.js:11
-msgid "List"
-msgstr ""
-
+#: blocks/library/image/index.js:42
 #: blocks/library/list/index.js:25
 #: blocks/library/text/index.js:24
 msgid "Align left"
 msgstr ""
 
+#: blocks/library/image/index.js:48
 #: blocks/library/list/index.js:33
 #: blocks/library/text/index.js:32
 msgid "Align center"
 msgstr ""
 
+#: blocks/library/image/index.js:54
 #: blocks/library/list/index.js:41
 #: blocks/library/text/index.js:40
 msgid "Align right"
+msgstr ""
+
+#: blocks/library/image/index.js:60
+msgid "No alignment"
+msgstr ""
+
+#: blocks/library/image/index.js:75
+msgid "Write caption…"
+msgstr ""
+
+#: blocks/library/list/index.js:11
+msgid "List"
 msgstr ""
 
 #: blocks/library/list/index.js:49
