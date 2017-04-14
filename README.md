@@ -1,6 +1,6 @@
 # Gutenberg
 
-Prototyping since 1440.
+Prototyping since 1440. :)
 
 ![Text block](https://wpcoredesign.mystagingwebsite.com/gutenberg/gutenberg.png)
 
